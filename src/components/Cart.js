@@ -3,7 +3,7 @@ import Itemlist from "./Itemlist";
 
 // Cart.jsx
 const Cart = () => {
-const cartItems =  useSelector(store=>store.cart.items)
+const cartItems =  useSelector(store=>store.Cart.items)
   return 
   <div>
     <Itemlist items={cartItems}/>
