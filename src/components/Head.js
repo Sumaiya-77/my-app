@@ -10,7 +10,7 @@ const Head = () => {
   const { out } = useContext(Hra);
 
 
-  const cartItems = useSelector(store => store.cart?.items || []);
+  const cartItems = useSelector(store => store.Cart?.items || []);
   // const cartItems = useSelector(store=>store.cart.items)
 
   return (
